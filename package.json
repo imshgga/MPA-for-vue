@@ -6,11 +6,7 @@
   "private": true,
   "license": "MIT",
 	"repository": "imshgga/MPA-for-vue",
-  "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
-    "build": "rm -rf ./dist && node build/build.js",
-  },
+  "scripts": {},
   "dependencies": {
     "axios": "^0.18.0",
     "jquery": "^3.3.1",
