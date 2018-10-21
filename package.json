@@ -1,12 +1,17 @@
 {
-  "name": "{{name}}",
+  "name": "MPA-for-vue",
   "version": "1.0.0",
-  "description": "{{description}}",
-  "author": "{{author}}",
+  "description": "A boilerplate of vue for Multiple Page App.",
+  "author": "shgga",
   "private": true,
   "license": "MIT",
 	"repository": "imshgga/MPA-for-vue",
-  "scripts": {},
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "rm -rf ./dist && node build/build.js",
+    "a": "b"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "jquery": "^3.3.1",
