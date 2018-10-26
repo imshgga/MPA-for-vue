@@ -33,6 +33,14 @@ src下pages文件夹里面一个js文件会打包成一个独立的页面,页面
 
 static文件夹下资源会拷贝到dist/static下
 
+5. help you generate docs for `*.vue` files before git commit
+
+在`git commit`前会自动帮你在`./doc/`生成(更新)`*.vue`文件的md文档.
+
+## ChangeLog
+
++ will help you generate docs for `*.vue` files before git commit by use [vuese](https://github.com/HcySunYang/vuese)
+
 ## License
 
 MIT

@@ -1,0 +1,8 @@
+{
+  "include": ["**/*.vue"],
+  "exclude": ["node_modules/**/*.vue", "test/**/*.vue"],
+  "outDir": "doc",
+  "markdownDir": "",
+  "genType": "markdown"
+
+}

@@ -7,6 +7,7 @@
     "license": "MIT",
     "repository": "imshgga/MPA-for-vue",
     "scripts": {
+        "docs": "vuese gen",
         "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
         "start": "npm run dev",
         "build": "rm -rf ./dist && node build/build.js"
